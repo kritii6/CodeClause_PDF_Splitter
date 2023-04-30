@@ -15,7 +15,7 @@ public class MainClass {
             if (result == JFileChooser.APPROVE_OPTION) {
                 File selectedFile = fileChooser.getSelectedFile();
 
-                // Load the selected PDF file
+                // Load the selected PDF filee
                 PDDocument document = PDDocument.load(selectedFile);
 
                 // Get the number of pages
